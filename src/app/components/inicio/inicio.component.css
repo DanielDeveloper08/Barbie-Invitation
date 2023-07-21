@@ -4,6 +4,34 @@
     width: 50%;
 }
 
+@media (max-width: 768px) {
+  .image {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .quieres{
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  
+  .conmigo{
+    font-size: 35px;
+  }
+
+  .image img{
+    width: 100% !important;
+    height: 350px !important;
+    border-radius: 15px;
+  }
+
+  button{
+    margin-top: 10px;
+    height: 60px;
+    font-size: 20px !important;
+  }
+}
+
 .questions{
     width: 50%;
 }
@@ -28,10 +56,6 @@ h2{
     font-size: 80px;
 }
 
-.entradas{
-    animation-duration: 60s;
-    animate: delay 0.9em;
-}
 
   button {
     display: flex;
@@ -116,6 +140,11 @@ h2{
   button:hover .filled {
     opacity: 1;
     animation: beatingHeart 1.2s infinite;
+  }
+
+  .paulina{
+    margin-top: 20px;
+    text-shadow: 5px 5px #fe46a5;
   }
 
 

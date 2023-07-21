@@ -9,7 +9,13 @@
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/img/fondo.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     overflow: hidden;
+    background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+  }

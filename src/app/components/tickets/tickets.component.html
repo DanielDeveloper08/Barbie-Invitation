@@ -1,1 +1,7 @@
-<img src="assets/img/capture.jfif" alt="tickets" class="animate__animated animate__bounce animate__bounceInLeft">
+<div *ngIf="isMobile; else desktopContent">
+    <img [src]="largeImageUrl" alt="tickets" class="animate__animated animate__bounce animate__bounceInLeft">
+  </div>
+  
+  <ng-template #desktopContent>
+    <img [src]="imageUrl" alt="tickets" class="animate__animated animate__bounce animate__bounceInLeft w-full">
+  </ng-template>
